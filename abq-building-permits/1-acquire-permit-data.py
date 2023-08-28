@@ -19,16 +19,14 @@ logging.basicConfig(
     level=logging.DEBUG,
 )
 
-"""
-Each Sunday evening, this script pulls down a copy of the
-abq csv of building permits which is updated nightly
-"""
+"""Each Sunday evening, this script pulls down a copy of the
+abq csv of building permits which is updated nightly"""
 
 
 class BuildingPermitRequest(object):
 
     request_headers = {
-        "From": "ckeller@bizjournals.com",
+        "From": "jsileo@bizjournals.com",
         "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) \
             AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.53 Safari/525.19",
     }
